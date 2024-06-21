@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Seller Registration</title>
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <img src="./logos/logo.jpg" alt="Logo">
+            <h4>Radient Wheels</h4>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="registration.html">Seller Registration</a></li>
+                <li><a href="login.html">Seller Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <a href="search.html" id="search-icon"><img src="./logos/search.png" alt="Search" width="33px"></a>
+        </div>
+    </header>
+    <section>
+        <div class="reg">
+            <h2>Sellers Registration</h2><br><br>
+            <form action="seller.html" method="get" class="f1">
+                <div>
+                    <label class="lab-n">Name</label> 
+                    <input type="text" value="" class="nam" required></input>
+                </div>
+                <div>
+                    <label class="lab-a">Adderess</label> 
+                    <input type="text" value="" class="address" required>
+                </div>
+                <div>
+                    <label class="lab-c">Contact no</label> 
+                    <input type="number" value="" class="contact" required>
+                </div>
+                <div>
+                    <label class="lab-e">Email</label> 
+                    <input type="email" value="" class="email"required>
+                </div>
+                <div>
+                    <label class="lab-u">Username</label> 
+                    <input type="text" value="" class="user" required>
+                </div>
+                <div>
+                    <label class="lab-p">Password</label> 
+                    <input type="password" value="" class="pass" required>
+                </div> <br>
+                <div class="sub">
+                    <input type="submit" value="Sign In" class="button" >
+                </div>
+            </form>
+            </div>
+    </section>
+
+    <script src="javascripts/registration.js"></script>
+    <script src="javascripts/javascript.js"></script>
+</body>
+</html>

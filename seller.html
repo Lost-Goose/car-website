@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Seller Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <img src="./logos/logo.jpg" alt="Logo">
+            <h4>Radient Wheels</h4>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Seller Registration</a></li>
+                <li class="active"><a  href="login.html">Seller Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <a href="search.html" id="search-icon"><img src="./logos/search.png" alt="Search" width="33px"></a>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="reg">
+
+            <h2>Add Car</h2>
+            <form id="addCarForm">
+                <label for="make">Make:</label>
+                <input type="text" id="make" required><br><br>
+    
+                <label for="model">Model:</label>
+                <input type="text" id="model" required><br><br>
+    
+                <label for="year">Year:</label>
+                <input type="number" id="year" min="1900" max="2023" required><br><br>
+    
+                <label for="mileage">Mileage:</label>
+                <input type="number" id="mileage" required><br><br>
+    
+                <label for="location">Location:</label>
+                <input type="text" id="location" required><br><br>
+    
+                <label for="price">Price:</label>
+                <input type="number" id="price" required><br><br>
+    
+                <button type="button" onclick="validateCarForm()">Add Car</button>
+            </form>
+        </div>
+    </section>
+    <script src="javascripts/seller.js"></script>
+    <script src="javascripts/javascript.js"></script>
+</body>
+</html>

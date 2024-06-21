@@ -1,0 +1,77 @@
+body{
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+    text-align: right;
+
+}
+.bg_contents{
+    font-size:30px;
+    text-align: center;
+}
+.p1{
+    font-size:23px;
+    text-align: center;
+}
+.bg {
+    width: 100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+  }
+  .bg-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/WRX.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+  }
+  .bg-content {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding:100px;
+  }
+  .bg-content p{
+    font-size: 25px;;
+  }
+  
+  .bg h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+.list{
+    text-align: right ;
+    display: flex;
+}
+.head{
+    text-align: right;
+}
+.sr{
+    display: flex;
+    text-align: center;    
+}
+/*add cars*/
+.input-group input{
+	width: 200px;
+	height: 20px;
+	border: 1px solid black;
+	padding: 4px;
+	margin-bottom: 5px;
+}
+.add{
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

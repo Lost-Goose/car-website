@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <img src="./logos/logo.jpg" alt="Logo">
+            <h4>Radient Wheels</h4>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Seller Registration</a></li>
+                <li class="active"><a  href="login.html">Seller Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <a href="search.html" id="search-icon"><img src="./logos/search.png" alt="Search" width="33px"></a>
+
+        </div>
+    </header>
+    <section>
+        <div class="reg">
+            <h2>Login</h2>
+            <form class="sell">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username"><br><br>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password"><br><br>
+    
+    
+                <button type="button" onclick="login()">Login</button>
+            </form>
+
+        </div>
+    </section>
+    <p>username is car and password is seller</p>
+
+
+    <script src="javascripts/login.js"></script>
+    <script src="javascripts/javascript.js"></script>
+</body>
+</html>

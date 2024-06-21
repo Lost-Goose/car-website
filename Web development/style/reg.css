@@ -1,0 +1,61 @@
+body.b1 {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+  
+  .b1 h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.reg {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.lab-a{
+    margin-right: 37px;
+}
+
+.lab-n{
+    margin-right: 62px;
+}
+
+.lab-c{
+    margin-right: 28px;
+}
+
+.lab-e{
+    margin-right: 65px;
+}
+
+.lab-u{
+    margin-right: 31px;
+}
+
+.lab-p{
+    margin-right: 35px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sub{
+    text-align: center;
+}

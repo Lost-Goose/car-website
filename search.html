@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Search Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-name">
+            <img src="./logos/logo.jpg" alt="Logo">
+            <h4>Radient Wheels</h4>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Seller Registration</a></li>
+                <li><a href="seller.html">Seller Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <a href="search.html" id="search-icon"><img src="./logos/search.png" alt="Search" width="33px"></a>
+        </div>
+    </header>
+    <section class="src">
+        <h2>Car Search</h2>
+        <form id="searchForm">
+            <label for="model">Car Model:</label>
+            <input type="text" id="model" placeholder="Enter car model">
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+
+            <button type="button" onclick="searchCars()">Search</button>
+        </form>
+
+        <div id="searchResults">
+            <!-- Display search results here -->
+        </div>
+    </section>
+    <p>search camry,civic and add more in search.js</p>
+
+    <script src="javascripts/search.js"></script>
+</body>
+</html>
